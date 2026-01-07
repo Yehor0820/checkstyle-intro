@@ -1,7 +1,7 @@
 package core.basesyntax;
 
-import core.basesyntax.Model.Cat;
-import core.basesyntax.Model.Dog;
+import core.basesyntax.model.Cat;
+import core.basesyntax.model.Dog;
 import java.time.LocalDate;
 
 public class HelloWorld {
@@ -46,7 +46,7 @@ public class HelloWorld {
 
         variable = LocalDate.now().getYear();
         System.out.println("It is " + variable + " year");
-        
+
         age = 25;
         System.out.println("I'm " + age);
 
